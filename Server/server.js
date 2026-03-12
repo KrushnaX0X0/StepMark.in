@@ -25,10 +25,10 @@ app.use(express.urlencoded({extended:true}));
 
 
 app.get("/ping",(req,res)=>{
-     return responder(res,true,200,"pong",null);
+     return responder(res,true,200,"pong 🏓",null);
 })
 
 app.listen(PORT,()=>{
     // connectDB();
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on port ${PORT} 📦`);
 })
